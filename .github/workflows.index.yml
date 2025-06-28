@@ -24,4 +24,4 @@ jobs:
       run: javac add.java
 
     - name: Run Java program
-      run: java add
+      run: java Add
