@@ -22,6 +22,10 @@ jobs:
 
     - name: Compile Java program
       run: javac Add.java
+    - name: Compile Second Java file
+      run: javac Display.java
 
     - name: Run Java program
       run: java Add
+    - name: Run second java file
+      run: java Display
