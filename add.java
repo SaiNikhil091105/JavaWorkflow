@@ -1,4 +1,4 @@
-import java.Utils.Scanner;
+import java.Util.Scanner;
 public class Add{
   public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
