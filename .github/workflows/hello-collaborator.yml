@@ -1,0 +1,12 @@
+name: Greet Active Collaborator
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "👋 Hello, ${{ github.actor }}! Thanks for being active in the repo."
